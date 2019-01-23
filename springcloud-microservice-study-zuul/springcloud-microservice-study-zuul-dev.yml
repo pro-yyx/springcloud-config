@@ -1,12 +1,12 @@
 
 zuul:
   routes: 
-    api-member:
-      path: /api-member/**
-      serviceId: /springcloud-microservice-study-service-member
+    api-memeber:
+      path: /api-memeber/**
+      serviceId: springcloud-microservice-study-service-member
     api-order:
        path: /api-order/**
-       serviceId: /springcloud-microservice-study-service-order
+       serviceId: springcloud-microservice-study-service-order
 management:
   endpoints:
     web:
