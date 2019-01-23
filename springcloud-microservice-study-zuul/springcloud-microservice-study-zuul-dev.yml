@@ -1,7 +1,7 @@
 zuul:
   routes: 
     api-memeber:
-      path: /api-memeber/**
+      path: /api-member/**
       serviceId: springcloud-microservice-study-service-member
     api-order:
        path: /api-order/**
