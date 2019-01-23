@@ -5,6 +5,14 @@ spring:
         defaultZone: http://127.0.0.1:8080/eureka
 server:
   port: 8082
+zuul:
+  routes: 
+    api-member:
+      path: /api-member/**
+      serviceId: /springcloud-microservice-study-service-member
+    api-order:
+       path: /api-order/**
+       serviceId: /springcloud-microservice-study-service-order
 management:
   endpoints:
     web:
