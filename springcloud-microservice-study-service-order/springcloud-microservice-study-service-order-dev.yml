@@ -27,3 +27,6 @@ management:
         include: "*"
 info:
   name: order-actuator
+
+swagger:
+  base-package: com.yyx.springcloud.controller
